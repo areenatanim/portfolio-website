@@ -22,6 +22,7 @@ nav {
      display: flex;
      justify-content: space-between;
      align-items: center;
+     margin: 0 200px;
      
 }
 .nav-tittel {
@@ -41,4 +42,12 @@ nav li{
 nav a{
      text-decoration: none;
      color: #474747;
+}
+/* this is header style */
+.header{
+   background-color: #FFF8F3;  
+}
+/* this is banner style */
+.banner{
+     padding: 30px 30px 30px 150px;
 }
