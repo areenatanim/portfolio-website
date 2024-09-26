@@ -5,6 +5,16 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title> Home page</title>
      <link rel="stylesheet" href="/styels/home.css">
+
+     <script>
+const burger = document.querySelector('.burger');
+const navLinks = document.querySelector('.nav-links');
+
+burger.addEventListener('click', () => {
+  navLinks.classList.toggle('active');
+  burger.classList.toggle('active');
+});
+     </script>
 </head>
 <body>
      <header>

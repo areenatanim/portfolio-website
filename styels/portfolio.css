@@ -45,9 +45,26 @@ nav a{
 }
 /* this is header style */
 .header{
-   background-color: #FFF8F3;  
+   background-color: #FFF8F3;
+   background-image: url(/resorses/header_bg.png); 
+   background-repeat: no-repeat; 
+   background-position: bottom right    ;
 }
 /* this is banner style */
 .banner{
-     padding: 30px 30px 30px 150px;
+     padding: 30px 30px 0px 150px;
+     display: flex;
+     align-items: center;
+}
+.banner .profile-pic{
+     width: 500px;
+}
+.banner-content{
+
+}
+.banner-greeting{
+
+}
+.banner-tittel{
+
 }
