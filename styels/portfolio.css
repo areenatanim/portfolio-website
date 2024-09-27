@@ -92,7 +92,10 @@ margin-bottom: 20px;
      max-width: 585px;
 }
 /* main section style */
-
+main{
+     min-width: 1140px;
+     margin: auto;
+}
 
 /* this is about section style */
 .about{
@@ -100,4 +103,19 @@ margin-bottom: 20px;
      background-color: #FFF8F3;
      border-radius: 10px;
      margin: 130px 150px;
+}
+.iofo-continur{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     margin-top: 20px;
+}
+/* what i do section */
+.what-i-do{
+
+}
+.skill-container{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
 }
